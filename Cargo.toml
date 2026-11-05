@@ -1,0 +1,16 @@
+[workspace]
+resolver = "3"
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/kerryhatcher/multi-agent"
+authors = ["Kerry Hatcher"]
+rust-version = "1.85"
+
+[workspace.dependencies]
+# Shared third-party crates go here. Member crates opt in with `dep.workspace = true`.
+# Workspace crates depend on each other by path, e.g.:
+# multi-agent-core = { path = "crates/multi-agent-core" }
