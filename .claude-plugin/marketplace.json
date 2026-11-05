@@ -1,0 +1,20 @@
+{
+  "name": "multi-agent",
+  "owner": {
+    "name": "Kerry Hatcher"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for herdr-based multi-agent workflows.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "herdr-multi-agent",
+      "source": "./plugins/herdr-multi-agent",
+      "description": "Skills for coordinating multiple coding agents running in herdr panes.",
+      "version": "0.1.0",
+      "category": "productivity",
+      "keywords": ["herdr", "multi-agent", "workflows"]
+    }
+  ]
+}
