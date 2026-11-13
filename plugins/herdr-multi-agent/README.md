@@ -6,6 +6,10 @@ Skills for coordinating multiple coding agents running in herdr panes.
 
 ## Contents
 
+- `skills/setup-dev-team/` — skill for building a dev team in herdr: a product owner tab, a planning tab (manager and architect), and dev and review tabs, each with a lead and three members.
+- `scripts/setup-dev-team.sh` — creates those four tabs and starts the agents. Run `scripts/setup-dev-team.sh <project> --dry-run` to preview.
+- `scripts/messaging-protocol.md` — messaging rules and roster that every agent receives.
+- `agents/` — one role prompt per agent type: `product-owner`, `manager`, `architect`, `dev-lead`, `developer`, `review-lead`, `reviewer`.
 - `skills/example-workflow/` — placeholder skill. Replace it with real workflows.
 
 ## Local development
